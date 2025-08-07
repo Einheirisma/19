@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": "icon-enabled.png",
+      "default_popup": "popup/popup.html"
+   },
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "FastProxy VPN Online - обход блокировки сайтов в России и Украине. Доступ и ускорение Ютуб.",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon-enabled.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArCb1k7PnDtnMmKyRYyp2TluFn3sEtJ6tSXJY5PI/4Y4FX4Rfvl3l05Ow5jEiQYuZBdkNx9jZou8AE4LwaRdR5nNht9vOlqDLTIFwGP2dc+Ae4chNjOJp2igKZ2jpKUfUFNsjgzoICw035L9ky4kxKJlwHsUD1m5YSflEC7rp+ctVGiJNulsGj6nPjJAFoRqNTgUmY+JWTHf2TzdikmJlRCxIkbpWPRlWNun+3+lB+dG9bNYxql7GuuiW6fTJIpxEJQ0Pozw6JmswWSTs0/ZtwsLriJ3LvCoKx1ovUPCjTgYXMeXAblAsu6UZLGow2ixVyL+6+S5El69Bs/j5vSEFRQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "109.0.0.0",
+   "name": "FastProxy VPN Online - обход блокировок сайтов. Доступ и ускорение Youtube.",
+   "optional_permissions": [ "management" ],
+   "permissions": [ "proxy", "tabs", "webRequest", "storage", "unlimitedStorage", "alarms", "scripting", "declarativeNetRequest", "webRequestAuthProvider", "webNavigation" ],
+   "short_name": "FastProxy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

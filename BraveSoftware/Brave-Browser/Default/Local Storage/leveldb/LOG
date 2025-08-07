@@ -1,0 +1,112 @@
+2025/08/07-19:51:17.794 4 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/08/07-19:51:17.801 4 Recovering log #1234
+2025/08/07-19:51:17.801 4 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001234.log 
+2025/08/07-19:53:25.650 5 Level-0 table #1238: started
+2025/08/07-19:53:25.660 5 Level-0 table #1238: 22307 bytes OK
+2025/08/07-19:53:25.664 5 Delete type=0 #1234
+2025/08/07-20:12:25.542 5 Level-0 table #1240: started
+2025/08/07-20:12:25.549 5 Level-0 table #1240: 22423 bytes OK
+2025/08/07-20:12:25.552 5 Delete type=0 #1237
+2025/08/07-20:12:25.553 5 Compacting 4@0 + 2@1 files
+2025/08/07-20:12:25.610 5 Generated table #1241@0: 902 keys, 2125108 bytes
+2025/08/07-20:12:25.622 5 Generated table #1242@0: 361 keys, 680926 bytes
+2025/08/07-20:12:25.622 5 Compacted 4@0 + 2@1 files => 2806034 bytes
+2025/08/07-20:12:25.623 5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/08/07-20:12:25.624 5 Delete type=2 #1233
+2025/08/07-20:12:25.624 5 Delete type=2 #1231
+2025/08/07-20:12:25.624 5 Delete type=2 #1240
+2025/08/07-20:12:25.624 5 Delete type=2 #1238
+2025/08/07-20:12:25.624 5 Delete type=2 #1235
+2025/08/07-20:12:25.624 5 Delete type=2 #1230
+2025/08/07-22:16:34.777 5 Level-0 table #1244: started
+2025/08/07-22:16:34.786 5 Level-0 table #1244: 28015 bytes OK
+2025/08/07-22:16:34.789 5 Delete type=0 #1239
+2025/08/07-22:24:04.778 5 Level-0 table #1246: started
+2025/08/07-22:24:04.789 5 Level-0 table #1246: 138783 bytes OK
+2025/08/07-22:24:04.792 5 Delete type=0 #1243
+2025/08/07-22:26:26.074 5 Level-0 table #1248: started
+2025/08/07-22:26:26.085 5 Level-0 table #1248: 130182 bytes OK
+2025/08/07-22:26:26.088 5 Delete type=0 #1245
+2025/08/07-22:27:37.951 5 Level-0 table #1250: started
+2025/08/07-22:27:37.961 5 Level-0 table #1250: 132305 bytes OK
+2025/08/07-22:27:37.963 5 Delete type=0 #1247
+2025/08/07-22:27:37.964 5 Compacting 4@0 + 2@1 files
+2025/08/07-22:27:38.026 5 Generated table #1251@0: 903 keys, 2127606 bytes
+2025/08/07-22:27:38.038 5 Generated table #1252@0: 360 keys, 680794 bytes
+2025/08/07-22:27:38.038 5 Compacted 4@0 + 2@1 files => 2808400 bytes
+2025/08/07-22:27:38.041 5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/08/07-22:27:38.041 5 Delete type=2 #1246
+2025/08/07-22:27:38.041 5 Delete type=2 #1248
+2025/08/07-22:27:38.041 5 Delete type=2 #1244
+2025/08/07-22:27:38.041 5 Delete type=2 #1250
+2025/08/07-22:27:38.042 5 Delete type=2 #1242
+2025/08/07-22:27:38.042 5 Delete type=2 #1241
+2025/08/07-22:31:23.260 5 Level-0 table #1254: started
+2025/08/07-22:31:23.269 5 Level-0 table #1254: 138240 bytes OK
+2025/08/07-22:31:23.272 5 Delete type=0 #1249
+2025/08/07-22:32:48.203 5 Level-0 table #1256: started
+2025/08/07-22:32:48.214 5 Level-0 table #1256: 143568 bytes OK
+2025/08/07-22:32:48.217 5 Delete type=0 #1253
+2025/08/07-23:12:28.842 5 Level-0 table #1258: started
+2025/08/07-23:12:28.850 5 Level-0 table #1258: 16271 bytes OK
+2025/08/07-23:12:28.853 5 Delete type=0 #1255
+2025/08/07-23:31:58.163 5 Level-0 table #1260: started
+2025/08/07-23:31:58.167 5 Level-0 table #1260: 67888 bytes OK
+2025/08/07-23:31:58.169 5 Delete type=0 #1257
+2025/08/07-23:31:58.170 5 Compacting 4@0 + 2@1 files
+2025/08/07-23:31:58.208 5 Generated table #1261@0: 903 keys, 2125894 bytes
+2025/08/07-23:31:58.224 5 Generated table #1262@0: 361 keys, 681589 bytes
+2025/08/07-23:31:58.224 5 Compacted 4@0 + 2@1 files => 2807483 bytes
+2025/08/07-23:31:58.226 5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/08/07-23:31:58.226 5 Delete type=2 #1251
+2025/08/07-23:31:58.226 5 Delete type=2 #1252
+2025/08/07-23:31:58.226 5 Delete type=2 #1258
+2025/08/07-23:31:58.227 5 Delete type=2 #1254
+2025/08/07-23:31:58.227 5 Delete type=2 #1260
+2025/08/07-23:31:58.227 5 Delete type=2 #1256
+2025/08/07-23:32:58.163 5 Level-0 table #1264: started
+2025/08/07-23:32:58.172 5 Level-0 table #1264: 61384 bytes OK
+2025/08/07-23:32:58.175 5 Delete type=0 #1259
+2025/08/07-23:57:44.777 5 Level-0 table #1266: started
+2025/08/07-23:57:44.786 5 Level-0 table #1266: 30781 bytes OK
+2025/08/07-23:57:44.789 5 Delete type=0 #1263
+2025/08/08-00:01:07.121 5 Level-0 table #1268: started
+2025/08/08-00:01:07.129 5 Level-0 table #1268: 21144 bytes OK
+2025/08/08-00:01:07.132 5 Delete type=0 #1265
+2025/08/08-00:14:05.450 5 Level-0 table #1270: started
+2025/08/08-00:14:05.459 5 Level-0 table #1270: 23325 bytes OK
+2025/08/08-00:14:05.463 5 Delete type=0 #1267
+2025/08/08-00:14:05.463 5 Compacting 4@0 + 2@1 files
+2025/08/08-00:14:05.526 5 Generated table #1271@0: 905 keys, 2126173 bytes
+2025/08/08-00:14:05.538 5 Generated table #1272@0: 361 keys, 681383 bytes
+2025/08/08-00:14:05.538 5 Compacted 4@0 + 2@1 files => 2807556 bytes
+2025/08/08-00:14:05.540 5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/08/08-00:14:05.540 5 Delete type=2 #1268
+2025/08/08-00:14:05.540 5 Delete type=2 #1266
+2025/08/08-00:14:05.540 5 Delete type=2 #1270
+2025/08/08-00:14:05.540 5 Delete type=2 #1261
+2025/08/08-00:14:05.540 5 Delete type=2 #1262
+2025/08/08-00:14:05.540 5 Delete type=2 #1264
+2025/08/08-00:15:58.750 5 Level-0 table #1274: started
+2025/08/08-00:15:58.758 5 Level-0 table #1274: 18795 bytes OK
+2025/08/08-00:15:58.761 5 Delete type=0 #1269
+2025/08/08-00:16:42.161 5 Level-0 table #1276: started
+2025/08/08-00:16:42.169 5 Level-0 table #1276: 16640 bytes OK
+2025/08/08-00:16:42.172 5 Delete type=0 #1273
+2025/08/08-00:59:48.785 5 Level-0 table #1278: started
+2025/08/08-00:59:48.790 5 Level-0 table #1278: 36647 bytes OK
+2025/08/08-00:59:48.794 5 Delete type=0 #1275
+2025/08/08-01:48:54.914 5 Level-0 table #1280: started
+2025/08/08-01:48:54.918 5 Level-0 table #1280: 25538 bytes OK
+2025/08/08-01:48:54.921 5 Delete type=0 #1277
+2025/08/08-01:48:54.921 5 Compacting 4@0 + 2@1 files
+2025/08/08-01:48:54.983 5 Generated table #1281@0: 914 keys, 2127143 bytes
+2025/08/08-01:48:54.995 5 Generated table #1282@0: 361 keys, 681386 bytes
+2025/08/08-01:48:54.995 5 Compacted 4@0 + 2@1 files => 2808529 bytes
+2025/08/08-01:48:54.997 5 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/08/08-01:48:54.997 5 Delete type=2 #1278
+2025/08/08-01:48:54.997 5 Delete type=2 #1271
+2025/08/08-01:48:54.997 5 Delete type=2 #1280
+2025/08/08-01:48:54.997 5 Delete type=2 #1276
+2025/08/08-01:48:54.997 5 Delete type=2 #1272
+2025/08/08-01:48:54.998 5 Delete type=2 #1274

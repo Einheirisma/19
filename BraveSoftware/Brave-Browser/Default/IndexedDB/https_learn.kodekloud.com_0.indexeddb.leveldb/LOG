@@ -1,0 +1,24 @@
+2025/07/29-01:48:34.502 b347 Reusing MANIFEST /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_learn.kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/29-01:48:34.502 b347 Recovering log #19
+2025/07/29-01:48:34.503 b347 Reusing old log /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_learn.kodekloud.com_0.indexeddb.leveldb/000019.log 
+2025/07/29-01:48:34.550 b357 Level-0 table #25: started
+2025/07/29-01:48:34.552 b357 Level-0 table #25: 17710 bytes OK
+2025/07/29-01:48:34.554 b357 Delete type=0 #19
+2025/07/29-01:48:34.555 b348 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/29-01:48:37.834 b349 Level-0 table #27: started
+2025/07/29-01:48:37.836 b349 Level-0 table #27: 4014 bytes OK
+2025/07/29-01:48:37.838 b349 Delete type=0 #24
+2025/07/29-01:48:37.838 b347 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 783 : 1
+2025/07/29-01:48:37.838 b347 Compacting 1@0 + 1@1 files
+2025/07/29-01:48:37.840 b347 Generated table #28@0: 53 keys, 3493 bytes
+2025/07/29-01:48:37.840 b347 Compacted 1@0 + 1@1 files => 3493 bytes
+2025/07/29-01:48:37.842 b347 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-01:48:37.843 b347 Delete type=2 #27
+2025/07/29-01:48:37.843 b347 Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 783 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/29-01:49:45.137 b347 Compacting 1@1 + 1@2 files
+2025/07/29-01:49:45.145 b347 Generated table #29@1: 76 keys, 6307 bytes
+2025/07/29-01:49:45.145 b347 Compacted 1@1 + 1@2 files => 6307 bytes
+2025/07/29-01:49:45.147 b347 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/29-01:49:45.148 b347 Delete type=2 #25
+2025/07/29-01:49:45.148 b347 Delete type=2 #28
+2025/07/29-01:49:45.148 b347 Delete type=2 #22

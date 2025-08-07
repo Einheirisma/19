@@ -1,0 +1,1 @@
+(()=>{try{navigator.serviceWorker.register=()=>Promise.reject(new Error("Service Worker registration is blocked"))}catch(r){}try{navigator.serviceWorker.getRegistrations().then((r=>{for(const e of r)e.unregister().then((r=>{r&&window.location.reload()}))}))}catch(r){}})();

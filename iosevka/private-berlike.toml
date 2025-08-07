@@ -1,0 +1,12 @@
+# ~/.config/iosevka/private-berlike.toml
+[buildPlans.berlike]
+family = "Iosevka BerkeleyLike"
+spacing = "term"          # mono fixed width
+serifs = "sans"           # Berkeley has no serifs
+[buildPlans.berlike.variants]
+inherits = "ss04"         # start from Menlo, the least geometric
+# then tweak a few glyphs
+f = "flat-hook-serifless" # flatter top, like Berkeley
+i = "serifed"             # small slab on the ‘i’
+l = "serifed"             # small slab on the ‘l’
+zero = "dotted"           # Berkeley uses dotted zero

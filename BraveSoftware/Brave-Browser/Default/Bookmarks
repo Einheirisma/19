@@ -1,0 +1,175 @@
+{
+   "checksum": "1c6ca8ec0dc2a2df858fb22dc14dfe18",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13397589520246294",
+            "date_last_used": "13399067783269194",
+            "guid": "8e9af064-2279-434a-a4bc-edaa758c6f12",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ВКонтакте",
+            "type": "url",
+            "url": "https://vk.com/im"
+         }, {
+            "date_added": "13397589799064256",
+            "date_last_used": "13399059174745558",
+            "guid": "a430afa0-9e8d-4c4c-aa27-aecbd9fcc0ca",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13397589782839468",
+            "date_last_used": "13399072198176070",
+            "guid": "ab97fd4c-6a59-45f1-a5ff-b393189664bc",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Twitch",
+            "type": "url",
+            "url": "https://www.twitch.tv/"
+         }, {
+            "date_added": "13397590148417929",
+            "date_last_used": "13398794444640555",
+            "guid": "6aa5071a-ea16-4def-8305-4d57457d9910",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Steam",
+            "type": "url",
+            "url": "http://steamcommunity.com/profiles/76561198091026993"
+         }, {
+            "date_added": "13397589701666807",
+            "date_last_used": "13399074832947426",
+            "guid": "3ecde5e4-988e-4d83-8e80-1fe2aa87748a",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/Einheirisma?tab=repositories"
+         }, {
+            "date_added": "13397590269204875",
+            "date_last_used": "13399074797011732",
+            "guid": "d029e8e2-ef1d-44c7-bf15-43a6badb2924",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Shikimori",
+            "type": "url",
+            "url": "https://shikimori.one/Einheirisma"
+         }, {
+            "date_added": "13397589937600477",
+            "date_last_used": "13398532694980251",
+            "guid": "6305282c-e712-43a6-bd47-bde7d593ca44",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "children": [ {
+               "date_added": "13397601302656822",
+               "date_last_used": "13398556903819318",
+               "guid": "76f64b50-fb0d-41f9-86e0-3a7f0623808e",
+               "id": "14",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Monkeytype",
+               "type": "url",
+               "url": "https://monkeytype.com/"
+            }, {
+               "date_added": "13397601484493964",
+               "date_last_used": "13398209234671946",
+               "guid": "0f6bfccc-9610-46c6-baa4-b20f4d74f2cf",
+               "id": "15",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "speedtyper.dev",
+               "type": "url",
+               "url": "https://speedtyper.dev/"
+            }, {
+               "date_added": "13398209228410914",
+               "date_last_used": "13398556415018646",
+               "guid": "07e8897f-ed35-4d91-a346-98533ade7fbd",
+               "id": "19",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "keybr.com",
+               "type": "url",
+               "url": "https://www.keybr.com/"
+            } ],
+            "date_added": "13397601286839317",
+            "date_last_used": "0",
+            "date_modified": "13398209228410914",
+            "guid": "a41dd46d-0ddc-44cb-b14a-5ea29177fe11",
+            "id": "13",
+            "name": "Typing",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13397855946148643",
+               "date_last_used": "13398304088245789",
+               "guid": "a2a60774-9704-4a94-b341-9a31aad59954",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "anilib.me",
+               "type": "url",
+               "url": "https://anilib.me/ru/anime/27--rurouni-kenshin-meiji-kenkaku-romantan-anime/watch?episode=2147&player=Animelib&team=32447"
+            } ],
+            "date_added": "13398440115955799",
+            "date_last_used": "0",
+            "date_modified": "13398440117966171",
+            "guid": "b599ee2c-1085-41fd-9fa1-3e9cd69c3fca",
+            "id": "21",
+            "name": "Anime",
+            "type": "folder"
+         } ],
+         "date_added": "13397587525043398",
+         "date_last_used": "0",
+         "date_modified": "13398440115956071",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13397587525043398",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13397587525043398",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

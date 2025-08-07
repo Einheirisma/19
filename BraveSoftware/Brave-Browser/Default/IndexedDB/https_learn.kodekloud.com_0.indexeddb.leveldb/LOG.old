@@ -1,0 +1,32 @@
+2025/07/28-20:30:40.308 b347 Reusing MANIFEST /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_learn.kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/28-20:30:40.309 b347 Recovering log #12
+2025/07/28-20:30:40.310 b347 Reusing old log /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_learn.kodekloud.com_0.indexeddb.leveldb/000012.log 
+2025/07/28-20:30:40.310 b347 Delete type=2 #11
+2025/07/28-20:30:40.356 b356 Level-0 table #17: started
+2025/07/28-20:30:40.359 b356 Level-0 table #17: 23039 bytes OK
+2025/07/28-20:30:40.361 b356 Delete type=0 #12
+2025/07/28-20:30:40.362 b347 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 602 : 1
+2025/07/28-20:30:40.362 b347 Compacting 1@0 + 1@1 files
+2025/07/28-20:30:40.364 b347 Generated table #18@0: 197 keys, 7277 bytes
+2025/07/28-20:30:40.364 b347 Compacted 1@0 + 1@1 files => 7277 bytes
+2025/07/28-20:30:40.366 b347 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/28-20:30:40.366 b347 Delete type=2 #17
+2025/07/28-20:30:40.367 b357 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 602 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/28-20:30:44.142 b349 Level-0 table #20: started
+2025/07/28-20:30:44.144 b349 Level-0 table #20: 4012 bytes OK
+2025/07/28-20:30:44.146 b349 Delete type=0 #16
+2025/07/28-20:30:44.146 b349 Delete type=2 #14
+2025/07/28-20:30:44.147 b348 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 647 : 1
+2025/07/28-20:30:44.147 b348 Compacting 1@0 + 1@1 files
+2025/07/28-20:30:44.149 b348 Generated table #21@0: 205 keys, 7342 bytes
+2025/07/28-20:30:44.149 b348 Compacted 1@0 + 1@1 files => 7342 bytes
+2025/07/28-20:30:44.150 b348 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/28-20:30:44.151 b348 Delete type=2 #20
+2025/07/28-20:30:44.151 b348 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 647 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/28-20:31:58.886 b348 Compacting 1@1 + 1@2 files
+2025/07/28-20:31:58.894 b348 Generated table #22@1: 76 keys, 6305 bytes
+2025/07/28-20:31:58.894 b348 Compacted 1@1 + 1@2 files => 6305 bytes
+2025/07/28-20:31:58.895 b348 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/28-20:31:58.896 b348 Delete type=2 #21
+2025/07/28-20:31:58.896 b348 Delete type=2 #18
+2025/07/28-20:31:58.896 b348 Delete type=2 #8

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "2157b7b1-2339-46f1-883b-62668e83474f",
+      "logo": {
+        "imageUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/b8b747ea-94e4-443f-97cc-8dd0d1b7b2db.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign2",
+        "alt": "Spend stablecoins with 3% back and no fees. Learn more.",
+        "companyName": "Ether.Fi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/a0964361-f411-447d-97e1-58c398aeca7b.jpg",
+          "creativeInstanceId": "81237a6d-70f0-46d5-b809-b997d343fcfa",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/6431fb71-1375-43e7-a09d-362f989e010b.jpg",
+          "creativeInstanceId": "b12335b2-60ae-4ffd-8782-e1501974b827",
+          "focalPoint": {
+            "x": 1198,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/5bcd3df0-0868-4557-88d2-6abfa01965fe.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign6",
+            "alt": "Ether.Fi - Spend your crypto wisely. No fees, 3% cash back. Learn more.",
+            "companyName": "Ether.Fi"
+          }
+        },
+        {
+          "imageUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/c9cc3287-54c6-43be-a3c0-b5a7b0ef74df.jpg",
+          "creativeInstanceId": "01470320-36d2-413a-84db-51ed469d093a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/637092ff-c3ab-4aa2-ae20-44d055e48678.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign5",
+            "alt": "Ether.Fi will take you there. 3% back in crypto. Learn more.",
+            "companyName": "Ether.Fi"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "2157b7b1-2339-46f1-883b-62668e83474f",
+      "logo": {
+        "imageUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/b8b747ea-94e4-443f-97cc-8dd0d1b7b2db.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign2",
+        "alt": "Spend stablecoins with 3% back and no fees. Learn more.",
+        "companyName": "Ether.Fi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/a0964361-f411-447d-97e1-58c398aeca7b.jpg",
+          "creativeInstanceId": "81237a6d-70f0-46d5-b809-b997d343fcfa",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/6431fb71-1375-43e7-a09d-362f989e010b.jpg",
+          "creativeInstanceId": "b12335b2-60ae-4ffd-8782-e1501974b827",
+          "focalPoint": {
+            "x": 1198,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/5bcd3df0-0868-4557-88d2-6abfa01965fe.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign6",
+            "alt": "Ether.Fi - Spend your crypto wisely. No fees, 3% cash back. Learn more.",
+            "companyName": "Ether.Fi"
+          }
+        },
+        {
+          "imageUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/c9cc3287-54c6-43be-a3c0-b5a7b0ef74df.jpg",
+          "creativeInstanceId": "01470320-36d2-413a-84db-51ed469d093a",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/637092ff-c3ab-4aa2-ae20-44d055e48678.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign5",
+            "alt": "Ether.Fi will take you there. 3% back in crypto. Learn more.",
+            "companyName": "Ether.Fi"
+          }
+        }
+      ]
+    }
+  ]
+}

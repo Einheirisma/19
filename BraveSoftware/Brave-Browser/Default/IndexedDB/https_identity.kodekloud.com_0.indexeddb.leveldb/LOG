@@ -1,0 +1,7 @@
+2025/07/28-19:21:14.937 a6c5 Reusing MANIFEST /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_identity.kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/28-19:21:14.937 a6c5 Recovering log #4
+2025/07/28-19:21:14.937 a6c5 Reusing old log /home/loki/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_identity.kodekloud.com_0.indexeddb.leveldb/000004.log 
+2025/07/28-19:21:15.009 a6d4 Level-0 table #8: started
+2025/07/28-19:21:15.012 a6d4 Level-0 table #8: 1615 bytes OK
+2025/07/28-19:21:15.014 a6d4 Delete type=0 #4
+2025/07/28-19:21:15.014 a6c6 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

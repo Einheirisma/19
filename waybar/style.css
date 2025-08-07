@@ -1,0 +1,41 @@
+@define-color background #000000;
+@define-color foreground #a9b1d6;
+@define-color focused #2ac3de;
+@define-color urgent #ff757f;
+
+* {
+  font-family: monospace;
+  font-size: 12pt;
+  border-radius: 0px;
+}
+
+window#waybar {
+  background: @background;
+  color: @foreground;
+}
+window#waybar.hidden {
+  background: transparent;
+}
+
+#tags {
+  padding: 0px 6px;
+}
+#custom-clock {
+  padding: 0px 12px;
+}
+
+#tags button {
+  padding: 0px 6px;
+  min-width: 0px;
+  border-radius: 0px;
+  color: @foreground;
+}
+#tags button.occupied {
+  color: @foreground;
+}
+#tags button.focused {
+  color: @focused;
+}
+#tags button.urgent {
+  color: @urgent;
+}

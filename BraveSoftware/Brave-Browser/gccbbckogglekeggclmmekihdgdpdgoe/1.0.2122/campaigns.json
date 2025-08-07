@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "gracePeriod": "72h",
+  "campaigns": [
+    {
+      "version": 1,
+      "advertiserId": "846dfc87-cea8-46f2-98b1-d9e42ef147b6",
+      "campaignId": "d7bae13f-ea4f-4e78-a9b2-8b81f99d783a",
+      "startAt": "2025-07-15T04:00:00.000Z",
+      "endAt": "2025-08-16T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "CA",
+        "DE",
+        "FR",
+        "GB",
+        "US"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "8087863c-9041-4d8c-b838-fadd0d2290b7",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "774b9047-f272-45ba-a8c5-da5c3573a590",
+              "targetUrl": "chrome://settings/search/defaultSearch",
+              "alt": "Switch to Brave Search. More Private. Better Answers. No Bias.",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "richMedia",
+                "relativeUrl": "0732516e-fe33-4cb8-9b0e-6ebc140cec82/index.html"
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "p3a.logs_constellation_prep|Brave.Search.SwitchEngine|value",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "p3a.logs_constellation_prep_express|Brave.Search.DefaultEngine.4|value",
+                  "condition": "[R≠]:8"
+                },
+                {
+                  "prefPath": "[virtual]:browser|version",
+                  "condition": "^\\d+\\.\\d+\\.(?:7[7-9]|[89]\\d|\\d{3,})\\.\\d+$"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|views",
+                  "condition": "[R≤]:5"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|clicks",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "advertiserId": "3b9828d8-b948-4cf1-a49c-fd486add10dd",
+      "campaignId": "2157b7b1-2339-46f1-883b-62668e83474f",
+      "startAt": "2025-08-07T04:00:00.000Z",
+      "endAt": "2025-08-08T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "AM",
+        "AO",
+        "AR",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BR",
+        "BS",
+        "BT",
+        "BW",
+        "BZ",
+        "CA",
+        "CD",
+        "CG",
+        "CH",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CV",
+        "CW",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "GY",
+        "HK",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "KE",
+        "KG",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "ME",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MQ",
+        "MR",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PS",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RW",
+        "SA",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TW",
+        "UG",
+        "US",
+        "UY",
+        "UZ",
+        "VC",
+        "VI",
+        "VN",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "d8a85e32-ccd5-43b8-ac06-c349cb929626",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0.01",
+          "creatives": [
+            {
+              "creativeInstanceId": "81237a6d-70f0-46d5-b809-b997d343fcfa",
+              "targetUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign2",
+              "alt": "Spend stablecoins with 3% back and no fees. Learn more.",
+              "companyName": "Ether.Fi",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/a0964361-f411-447d-97e1-58c398aeca7b.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "0e161ee2-9549-4602-b4c4-f8e6bf7aae2f/b8b747ea-94e4-443f-97cc-8dd0d1b7b2db.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "b12335b2-60ae-4ffd-8782-e1501974b827",
+              "targetUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign6",
+              "alt": "Ether.Fi - Spend your crypto wisely. No fees, 3% cash back. Learn more.",
+              "companyName": "Ether.Fi",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/6431fb71-1375-43e7-a09d-362f989e010b.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "16fdc86c-8dbb-4f34-9c1c-4ac313fad3ac/5bcd3df0-0868-4557-88d2-6abfa01965fe.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1198,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "01470320-36d2-413a-84db-51ed469d093a",
+              "targetUrl": "https://www.ether.fi/cash-crypto-cashback-campaign?utm_source=Brave%20Landing%20Page&utm_medium=NTT&utm_campaign=Cash%20Signups&utm_content=BraveCampaign5",
+              "alt": "Ether.Fi will take you there. 3% back in crypto. Learn more.",
+              "companyName": "Ether.Fi",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/c9cc3287-54c6-43be-a3c0-b5a7b0ef74df.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "cdc90170-31ef-4ad9-90dc-226ffcfe6214/637092ff-c3ab-4aa2-ae20-44d055e48678.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "layer": "top",
+  "reload_style_on_change": true,
+  "modules-left": ["river/tags", "custom/player"],
+  "modules-center": [],
+  "modules-right": [
+    "custom/clock"
+  ],
+  "custom/clock": {
+    "exec": "date +'%a %I:%M'",
+    "interval": 30,
+    "tooltip": false,
+    "on-click": "reminder"
+  },
+  "river/tags": {
+    "hide-vacant": true
+  }
+}

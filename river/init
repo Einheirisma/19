@@ -1,0 +1,204 @@
+#!/bin/sh
+#
+#  ~/.config/river/init
+#  --------------------
+#  This file is executed by river on start-up.
+#  It is run with `sh -e` : every command must succeed.
+#
+
+################################################################################
+# 1.  Autostart
+################################################################################
+/usr/bin/riverctl spawn "/usr/bin/swaybg -i $HOME/.pictures/background.jpg"
+riverctl "feh --bg-scale ~/.pictures/background.jpg"
+/usr/bin/riverctl spawn "waybar"
+
+################################################################################
+# 2.  Helper variables
+################################################################################
+Mod="Mod4"
+Terminal="/usr/bin/ghostty"
+FileManager="/usr/bin/nautilus"
+Browser="/usr/bin/brave --ozone-platform-hint=wayland"
+TelegramDesktop="/usr/bin/AyuGram --ozone-platform-hint=wayland"
+
+################################################################################
+# 3.  Detect largest output resolution and calculate floating-window size
+################################################################################
+Resolution=$(
+    /usr/bin/wlr-randr |
+    /usr/bin/rg -oP '\d{3,4}x\d{3,4}' |
+    /usr/bin/awk -F'x' '{print $1*$2,$0}' |
+    /usr/bin/sort -nr |
+    /usr/bin/head -1 |
+    /usr/bin/awk '{print $2}'
+)
+Width=$((  $(echo "$Resolution" | cut -d'x' -f1) * 80 / 100  ))
+Height=$(( $(echo "$Resolution" | cut -d'x' -f2) * 80 / 100 ))
+
+################################################################################
+# 4.  General river options
+################################################################################
+/usr/bin/riverctl default-attach-mode        bottom
+/usr/bin/riverctl output-attach-mode         bottom
+/usr/bin/riverctl allow-tearing              enabled
+
+/usr/bin/riverctl background-color           0x002B36
+/usr/bin/riverctl border-color-focused       0x93A1A1
+/usr/bin/riverctl border-color-unfocused     0x586E75
+/usr/bin/riverctl border-color-urgent        0xDC322F      # ← fixed placeholder
+/usr/bin/riverctl border-width               2
+
+/usr/bin/riverctl focus-follows-cursor       always
+/usr/bin/riverctl hide-cursor                timeout 1000
+/usr/bin/riverctl hide-cursor                when-typing  enabled
+/usr/bin/riverctl set-cursor-warp            on-output-change
+/usr/bin/riverctl set-repeat                 50 300
+/usr/bin/riverctl xcursor-theme              macos-tahoe-cursor 24
+
+################################################################################
+# 5.  Keyboard layout
+################################################################################
+/usr/bin/riverctl keyboard-layout -options \
+    "grp:ctrl_space_toggle,caps:escape" \
+    "us,ru"
+
+################################################################################
+# 6.  Touchpad (auto-detected)
+################################################################################
+Touchpad=$(/usr/bin/riverctl list-inputs | /usr/bin/rg Touchpad)
+
+/usr/bin/riverctl input "$Touchpad" events                           enabled
+/usr/bin/riverctl input "$Touchpad" accel-profile                    adaptive
+/usr/bin/riverctl input "$Touchpad" pointer-accel                    0
+/usr/bin/riverctl input "$Touchpad" click-method                     none
+/usr/bin/riverctl input "$Touchpad" drag                             enabled
+/usr/bin/riverctl input "$Touchpad" drag-lock                        disabled
+/usr/bin/riverctl input "$Touchpad" disable-while-typing             enabled
+/usr/bin/riverctl input "$Touchpad" disable-while-trackpointing      disabled
+/usr/bin/riverctl input "$Touchpad" middle-emulation                 disabled
+/usr/bin/riverctl input "$Touchpad" natural-scroll                   enabled
+/usr/bin/riverctl input "$Touchpad" scroll-factor                    1
+/usr/bin/riverctl input "$Touchpad" left-handed                      disabled
+/usr/bin/riverctl input "$Touchpad" tap                              enabled
+/usr/bin/riverctl input "$Touchpad" tap-button-map                   left-right-middle
+/usr/bin/riverctl input "$Touchpad" scroll-method                    two-finger
+/usr/bin/riverctl input "$Touchpad" scroll-button-lock               disabled
+# /usr/bin/riverctl input "$Touchpad" scroll-button                  button
+/usr/bin/riverctl input "$Touchpad" map-to-output                    disabled
+
+################################################################################
+# 7.  Key bindings
+################################################################################
+
+# --- Application launchers ----------------------------------------------------
+/usr/bin/riverctl map normal $Mod+Shift Return   spawn "$Terminal"
+/usr/bin/riverctl map normal $Mod B              spawn "$Browser"
+/usr/bin/riverctl map normal $Mod M              spawn "$FileManager"
+/usr/bin/riverctl map normal $Mod T              spawn "$TelegramDesktop"
+
+# --- Media / brightness controls (work in both normal and locked mode) --------
+for mode in normal locked; do
+    /usr/bin/riverctl map $mode None XF86AudioMute          spawn "/usr/bin/wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    /usr/bin/riverctl map $mode None XF86AudioRaiseVolume   spawn "/usr/bin/wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
+    /usr/bin/riverctl map $mode None XF86AudioLowerVolume   spawn "/usr/bin/wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+
+    /usr/bin/riverctl map $mode None XF86MonBrightnessUp    spawn "/usr/bin/brightnessctl --class=backlight set +5%"
+    /usr/bin/riverctl map $mode None XF86MonBrightnessDown  spawn "/usr/bin/brightnessctl --class=backlight set 5%-"
+done
+
+# --- Window management --------------------------------------------------------
+/usr/bin/riverctl map normal $Mod Q                  close
+/usr/bin/riverctl map normal $Mod+Shift E            exit
+
+/usr/bin/riverctl map normal $Mod J                  focus-view next
+/usr/bin/riverctl map normal $Mod K                  focus-view previous
+/usr/bin/riverctl map normal $Mod+Shift J            swap next
+/usr/bin/riverctl map normal $Mod+Shift K            swap previous
+
+/usr/bin/riverctl map normal $Mod Period             focus-output next
+/usr/bin/riverctl map normal $Mod Comma              focus-output previous
+/usr/bin/riverctl map normal $Mod+Shift Period       send-to-output next
+/usr/bin/riverctl map normal $Mod+Shift Comma        send-to-output previous
+
+/usr/bin/riverctl map normal $Mod Return             zoom
+
+# --- rivertile layout commands ------------------------------------------------
+/usr/bin/riverctl map normal $Mod H          send-layout-cmd rivertile "main-ratio -0.05"
+/usr/bin/riverctl map normal $Mod L          send-layout-cmd rivertile "main-ratio +0.05"
+/usr/bin/riverctl map normal $Mod+Shift H    send-layout-cmd rivertile "main-count +1"
+/usr/bin/riverctl map normal $Mod+Shift L    send-layout-cmd rivertile "main-count -1"
+
+/usr/bin/riverctl map normal $Mod Up         send-layout-cmd rivertile "main-location top"
+/usr/bin/riverctl map normal $Mod Right      send-layout-cmd rivertile "main-location right"
+/usr/bin/riverctl map normal $Mod Down       send-layout-cmd rivertile "main-location bottom"
+/usr/bin/riverctl map normal $Mod Left       send-layout-cmd rivertile "main-location left"
+
+# --- Floating-window movement / resize / snap --------------------------------
+/usr/bin/riverctl map normal $Mod+Alt H               move left 100
+/usr/bin/riverctl map normal $Mod+Alt J               move down 100
+/usr/bin/riverctl map normal $Mod+Alt K               move up 100
+/usr/bin/riverctl map normal $Mod+Alt L               move right 100
+
+/usr/bin/riverctl map normal $Mod+Alt+Control H       snap left
+/usr/bin/riverctl map normal $Mod+Alt+Control J       snap down
+/usr/bin/riverctl map normal $Mod+Alt+Control K       snap up
+/usr/bin/riverctl map normal $Mod+Alt+Control L       snap right
+
+/usr/bin/riverctl map normal $Mod+Alt+Shift H         resize horizontal -100
+/usr/bin/riverctl map normal $Mod+Alt+Shift J         resize vertical   100
+/usr/bin/riverctl map normal $Mod+Alt+Shift K         resize vertical  -100
+/usr/bin/riverctl map normal $Mod+Alt+Shift L         resize horizontal 100
+
+# --- Mouse bindings -----------------------------------------------------------
+/usr/bin/riverctl map-pointer normal $Mod BTN_LEFT    move-view
+/usr/bin/riverctl map-pointer normal $Mod BTN_RIGHT   resize-view
+/usr/bin/riverctl map-pointer normal $Mod BTN_MIDDLE  toggle-float
+
+# --- Tag management -----------------------------------------------------------
+for i in $(seq 1 9); do
+    tags=$((1 << ($i - 1)))
+    /usr/bin/riverctl map normal $Mod                $i  set-focused-tags       $tags
+    /usr/bin/riverctl map normal $Mod+Shift          $i  set-view-tags          $tags
+    /usr/bin/riverctl map normal $Mod+Control        $i  toggle-focused-tags    $tags
+    /usr/bin/riverctl map normal $Mod+Shift+Control  $i  toggle-view-tags       $tags
+done
+
+all_tags=$(( (1 << 32) - 1 ))
+browser_tag=$((1 << 1))             # 2-nd workspace
+terminal_tag=$((1 << 2))            # 3-rd workspace
+telegram_tag=$((1 << 3))            # 4-th workspace
+file_manager_tag=$((1 << 4))        # 5-th workspace
+/usr/bin/riverctl map normal $Mod       0 set-focused-tags   $all_tags
+/usr/bin/riverctl map normal $Mod+Shift 0 set-view-tags      $all_tags
+
+# --- Toggles / modes ----------------------------------------------------------
+/usr/bin/riverctl map normal $Mod Space      toggle-float
+/usr/bin/riverctl map normal $Mod F          toggle-fullscreen
+
+/usr/bin/riverctl declare-mode               passthrough
+/usr/bin/riverctl map normal       $Mod F11  enter-mode passthrough
+/usr/bin/riverctl map passthrough  $Mod F11  enter-mode normal
+
+################################################################################
+# 8.  River rules
+################################################################################
+/usr/bin/riverctl rule-add -app-id "brave-browser"          tags $browser_tag
+/usr/bin/riverctl rule-add -app-id "org.gnome.Nautilus"     tags $file_manager_tag
+/usr/bin/riverctl rule-add -app-id "com.ayugram.desktop"    tags $telegram_tag
+/usr/bin/riverctl rule-add -app-id "com.mitchellh.ghostty"  tags $terminal_tag
+
+/usr/bin/riverctl rule-add -app-id "brave-browser"          dimensions $Width $Height
+/usr/bin/riverctl rule-add -app-id "org.gnome.Nautilus"     fullscreen
+/usr/bin/riverctl rule-add -app-id "com.ayugram.desktop"    fullscreen
+/usr/bin/riverctl rule-add -app-id "com.mitchellh.ghostty"  dimensions $Width $Height
+/usr/bin/riverctl rule-add -app-id "feh"                    fullscreen
+/usr/bin/riverctl rule-add -app-id "mpv"                    fullscreen
+
+/usr/bin/riverctl rule-add -app-id "brave-browser"          -title "Picture-in-Picture" float
+/usr/bin/riverctl rule-add                                  -title "Picture-in-Picture" float
+################################################################################
+# 9.  Default layout generator
+################################################################################
+/usr/bin/riverctl default-layout rivertile
+/usr/bin/rivertile -view-padding 6 -outer-padding 6 &   # launched in background
