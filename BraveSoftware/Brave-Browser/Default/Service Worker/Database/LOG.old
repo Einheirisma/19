@@ -1,3 +1,2 @@
-2025/08/08-15:57:39.068 b9b2 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2025/08/08-15:57:39.068 b9b2 Recovering log #3
-2025/08/08-15:57:39.072 b9b2 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log 
+2025/08/08-17:12:22.017 be28 Creating DB /home/male/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database__tmp_for_rebuild since it was missing.
+2025/08/08-17:12:22.028 be28 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database__tmp_for_rebuild/MANIFEST-000001

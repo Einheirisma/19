@@ -1,7 +1,0 @@
-2025/08/07-03:15:45.661 7901 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/07-03:15:45.662 7901 Recovering log #168
-2025/08/07-03:15:45.662 7901 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000168.log 
-2025/08/07-03:15:45.686 7900 Level-0 table #174: started
-2025/08/07-03:15:45.688 7900 Level-0 table #174: 3769 bytes OK
-2025/08/07-03:15:45.690 7900 Delete type=0 #168
-2025/08/07-03:15:45.690 7900 Manual compaction at level-0 from '\x00*\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at (end)

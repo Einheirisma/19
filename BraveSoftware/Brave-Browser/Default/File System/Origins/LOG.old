@@ -1,3 +1,2 @@
-2025/08/08-14:09:51.903 6b69 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/File System/Origins/MANIFEST-000001
-2025/08/08-14:09:51.903 6b69 Recovering log #3
-2025/08/08-14:09:51.903 6b69 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/File System/Origins/000003.log 
+2025/08/08-17:12:22.037 be29 Creating DB /home/male/.config/BraveSoftware/Brave-Browser/Default/File System/Origins__tmp_for_rebuild since it was missing.
+2025/08/08-17:12:22.046 be29 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/File System/Origins__tmp_for_rebuild/MANIFEST-000001

@@ -1,3 +1,2 @@
-2025/08/08-16:00:01.903 be27 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
-2025/08/08-16:00:01.904 be27 Recovering log #3
-2025/08/08-16:00:01.905 be27 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log 
+2025/08/08-17:12:21.888 be28 Creating DB /home/male/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database since it was missing.
+2025/08/08-17:12:21.899 be28 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001

@@ -1,6 +1,0 @@
-2025/08/06-01:38:07.396 8a3 Creating DB /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_translate.yandex.com_0.indexeddb.leveldb since it was missing.
-2025/08/06-01:38:07.400 8a3 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_translate.yandex.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/06-01:43:41.542 8a4 Level-0 table #5: started
-2025/08/06-01:43:41.544 8a4 Level-0 table #5: 2488 bytes OK
-2025/08/06-01:43:41.546 8a4 Delete type=0 #3
-2025/08/06-01:43:41.546 8a4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,4 +1,0 @@
-2025/08/06-03:06:46.012 8a3 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/06-03:06:46.013 8a3 Recovering log #38
-2025/08/06-03:06:46.013 8a3 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/000038.log 
-2025/08/06-03:06:46.071 8b2 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,7 +1,0 @@
-2025/08/07-21:18:29.730 4d7f Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_grok.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/07-21:18:29.731 4d7f Recovering log #3
-2025/08/07-21:18:29.731 4d7f Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_grok.com_0.indexeddb.leveldb/000003.log 
-2025/08/07-21:18:32.932 4d81 Level-0 table #5: started
-2025/08/07-21:18:32.934 4d81 Level-0 table #5: 1254 bytes OK
-2025/08/07-21:18:32.935 4d81 Delete type=0 #3
-2025/08/07-21:18:32.936 4d80 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
