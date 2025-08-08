@@ -11,7 +11,7 @@
 ################################################################################
 /usr/bin/riverctl spawn "/usr/bin/swaybg -i $HOME/.pictures/background.jpg"
 riverctl "feh --bg-scale ~/.pictures/background.jpg"
-/usr/bin/riverctl spawn "waybar"
+/usr/bin/riverctl spawn "i3bar-river"
 
 ################################################################################
 # 2.  Helper variables

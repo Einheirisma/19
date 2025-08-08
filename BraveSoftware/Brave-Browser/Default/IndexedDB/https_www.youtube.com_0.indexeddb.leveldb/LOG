@@ -1,30 +1,3 @@
-2025/08/07-23:34:12.032 4d7f Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/07-23:34:12.033 4d7f Recovering log #703
-2025/08/07-23:34:12.047 4d7f Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000703.log 
-2025/08/07-23:34:16.817 4d80 Level-0 table #717: started
-2025/08/07-23:34:16.840 4d80 Level-0 table #717: 1597581 bytes OK
-2025/08/07-23:34:16.844 4d80 Delete type=0 #703
-2025/08/07-23:34:17.034 4d80 Compacting 1@1 + 10@2 files
-2025/08/07-23:34:17.062 4d80 Generated table #718@1: 652 keys, 2115596 bytes
-2025/08/07-23:34:17.083 4d80 Generated table #719@1: 464 keys, 2111072 bytes
-2025/08/07-23:34:17.104 4d80 Generated table #720@1: 459 keys, 2112105 bytes
-2025/08/07-23:34:17.125 4d80 Generated table #721@1: 357 keys, 2114422 bytes
-2025/08/07-23:34:17.146 4d80 Generated table #722@1: 714 keys, 2112148 bytes
-2025/08/07-23:34:17.166 4d80 Generated table #723@1: 490 keys, 2116948 bytes
-2025/08/07-23:34:17.186 4d80 Generated table #724@1: 617 keys, 2112905 bytes
-2025/08/07-23:34:17.208 4d80 Generated table #725@1: 622 keys, 2115085 bytes
-2025/08/07-23:34:17.234 4d80 Generated table #726@1: 726 keys, 2121208 bytes
-2025/08/07-23:34:17.254 4d80 Generated table #727@1: 11956 keys, 1026100 bytes
-2025/08/07-23:34:17.254 4d80 Compacted 1@1 + 10@2 files => 20057589 bytes
-2025/08/07-23:34:17.256 4d80 compacted to: files[ 0 0 11 0 0 0 0 ]
-2025/08/07-23:34:17.257 4d80 Delete type=2 #712
-2025/08/07-23:34:17.257 4d80 Delete type=2 #714
-2025/08/07-23:34:17.257 4d80 Delete type=2 #713
-2025/08/07-23:34:17.257 4d80 Delete type=2 #706
-2025/08/07-23:34:17.257 4d80 Delete type=2 #709
-2025/08/07-23:34:17.257 4d80 Delete type=2 #717
-2025/08/07-23:34:17.257 4d80 Delete type=2 #710
-2025/08/07-23:34:17.257 4d80 Delete type=2 #707
-2025/08/07-23:34:17.257 4d80 Delete type=2 #711
-2025/08/07-23:34:17.257 4d80 Delete type=2 #708
-2025/08/07-23:34:17.258 4d80 Delete type=2 #705
+2025/08/08-13:45:57.400 57d Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/08-13:45:57.400 57d Recovering log #729
+2025/08/08-13:45:57.402 57d Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000729.log 

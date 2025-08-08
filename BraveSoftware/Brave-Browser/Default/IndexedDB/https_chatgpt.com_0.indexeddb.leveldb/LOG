@@ -1,16 +1,3 @@
-2025/08/04-14:03:19.305 5fc5 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/04-14:03:19.305 5fc5 Recovering log #7
-2025/08/04-14:03:19.306 5fc5 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000007.log 
-2025/08/04-14:03:19.306 5fc5 Delete type=2 #5
-2025/08/04-14:10:03.534 5fc5 Level-0 table #12: started
-2025/08/04-14:10:03.538 5fc5 Level-0 table #12: 32227 bytes OK
-2025/08/04-14:10:03.540 5fc5 Delete type=0 #7
-2025/08/04-14:10:03.541 5fc5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2025/08/04-14:10:03.541 5fc5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00z\x00g\x00H\x00T\x001\x00v\x00z\x00M\x00n\x00J\x00g\x00q\x00p\x00S\x00v\x00C\x00l\x00Y\x00P\x00r\x00G\x00t\x00A\x001\x00\x01$\x006\x008\x009\x000\x008\x004\x009\x001\x00-\x00d\x00a\x003\x008\x00-\x008\x003\x002\x008\x00-\x009\x003\x00c\x001\x00-\x002\x001\x00e\x007\x00a\x00a\x005\x00a\x009\x00a\x00f\x00e' @ 763 : 1
-2025/08/04-14:10:03.541 5fc5 Compacting 1@1 + 1@2 files
-2025/08/04-14:10:03.545 5fc5 Generated table #13@1: 43 keys, 30436 bytes
-2025/08/04-14:10:03.546 5fc5 Compacted 1@1 + 1@2 files => 30436 bytes
-2025/08/04-14:10:03.548 5fc5 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/04-14:10:03.548 5fc5 Delete type=2 #12
-2025/08/04-14:10:03.549 5fc5 Delete type=2 #9
-2025/08/04-14:10:03.549 5fc5 Manual compaction at level-1 from '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00z\x00g\x00H\x00T\x001\x00v\x00z\x00M\x00n\x00J\x00g\x00q\x00p\x00S\x00v\x00C\x00l\x00Y\x00P\x00r\x00G\x00t\x00A\x001\x00\x01$\x006\x008\x009\x000\x008\x004\x009\x001\x00-\x00d\x00a\x003\x008\x00-\x008\x003\x002\x008\x00-\x009\x003\x00c\x001\x00-\x002\x001\x00e\x007\x00a\x00a\x005\x00a\x009\x00a\x00f\x00e' @ 763 : 1 .. (end); will stop at (end)
+2025/08/08-17:07:57.550 be27 Reusing MANIFEST /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/08-17:07:57.551 be27 Recovering log #11
+2025/08/08-17:07:57.551 be27 Reusing old log /home/male/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000011.log 
